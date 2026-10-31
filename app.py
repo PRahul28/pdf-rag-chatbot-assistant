@@ -19,7 +19,7 @@ llm = ChatGoogleGenerativeAI(
     google_api_key=api_key
 )
 
-st.title("RAG App (Streamlit + Gemini)")
+st.title("Financial Analysis using RAG")
 
 uploaded_file = st.file_uploader("Upload PDF or TXT file", type=["pdf", "txt"])
 
